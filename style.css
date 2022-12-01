@@ -1,0 +1,49 @@
+/* GENERAL DECLARATIONS */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Roboto, sans-serif;;
+}
+
+/* HEADER */
+
+.header {
+    background-color: #243042;
+    display : flex;
+    justify-content: space-between;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 18px;
+    color: #aeb0b4;
+    margin: 6px;
+}
+
+.header-links {
+    padding-top: 35px;
+    padding-right: 32px;;
+}
+
+.header-inner {
+    display:flex;
+    padding-left: 32px;
+}
+
+.title {
+    color: white;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    padding-top: 37px
+}
+
+.logo {
+    width: 50px;
+    padding: 16px 16px 16px 0px;
+}
