@@ -27,7 +27,7 @@ body {
 }
 
 .header-links {
-    padding-top: 35px;
+    padding-top: 32px;
     padding-right: 32px;;
 }
 
@@ -39,11 +39,61 @@ body {
 .title {
     color: white;
     font-weight: bold;
-    font-family:'Courier New', Courier, monospace;
-    padding-top: 37px
+    font-family: 'Courier New', Courier, monospace;
+    padding: 28px 0px 28px 0px;
+    font-size: 28px;
 }
 
 .logo {
     width: 50px;
+    max-width: 50px;
+    height: 50px;
     padding: 16px 16px 16px 0px;
+}
+
+/* SECTION ONE */
+
+.section-one {
+    background-color: #243042;
+}
+
+.photo-holder {
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+    flex-shrink: 0;
+}
+
+.bankphoto {
+    width: 400px;
+    max-width: 400px;
+    height: 250px;
+    padding: 38px;
+    opacity: 0.85;
+}
+
+.desc-holder {
+    padding: 40px 32px 0px 0px;
+    display: flex;
+    flex-flow: column;
+    max-width: 340px;
+}
+
+.desctitle {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.offertitle {
+    padding-top: 18px;
+    color: #aeb0b4;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.offers {
+    padding-top: 6px;
+    color: #aeb0b4;
+    font-size: 15px;
 }
