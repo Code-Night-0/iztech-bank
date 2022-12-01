@@ -27,7 +27,7 @@ body {
 }
 
 .header-links {
-    padding-top: 32px;
+    padding-top: 39px;
     padding-right: 32px;;
 }
 
@@ -40,14 +40,14 @@ body {
     color: white;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
-    padding: 28px 0px 28px 0px;
+    padding: 35px 0px 28px 0px;
     font-size: 28px;
 }
 
 .logo {
-    width: 50px;
-    max-width: 50px;
-    height: 50px;
+    width: 70px;
+    max-width: 70px;
+    height: 70px;
     padding: 16px 16px 16px 0px;
 }
 
@@ -87,7 +87,7 @@ body {
 
 .offertitle {
     padding-top: 18px;
-    color: #aeb0b4;
+    color: #dfe2e9;
     font-weight: bold;
     font-size: 16px;
 }
@@ -97,3 +97,5 @@ body {
     color: #aeb0b4;
     font-size: 15px;
 }
+
+/* SECTION TWO */
