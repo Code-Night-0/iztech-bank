@@ -99,3 +99,16 @@ body {
 }
 
 /* SECTION TWO */
+
+.section-two {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 32px;
+    padding: 32px
+}
+
+.newsphoto {
+    max-width: 200px;
+    height: auto;
+}
