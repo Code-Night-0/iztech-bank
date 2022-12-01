@@ -102,13 +102,36 @@ body {
 
 .section-two {
     background-color: #E5E7EB;
+}
+
+.container {
     display: flex;
     justify-content: space-evenly;
     gap: 32px;
     padding: 32px
 }
 
+.newstitle {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 28px;
+    padding-top: 16px;
+    padding-left: 40px;
+}
+
 .newsphoto {
     max-width: 400px;
     height: auto;
+    transition: box-shadow .3s;
+}
+
+.newsphoto:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    transform: scale(1.008); 
+}
+
+.newsdesc {
+    max-width: 400px;
+    font-weight: bold;
+    padding-top: 12px;
 }
