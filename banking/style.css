@@ -51,3 +51,32 @@ body {
     height: 70px;
     padding: 16px 16px 16px 0px;
 }
+
+/* LOGIN SECTION */
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.loginsection {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 32px;
+}
+
+.holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 32px;
+}
+
+#submit {
+    font-size: 16px;
+    padding: 4px;
+}
