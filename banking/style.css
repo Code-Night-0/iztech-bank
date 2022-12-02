@@ -10,3 +10,44 @@
 body {
     font-family: Roboto, sans-serif;;
 }
+
+/* HEADER */
+
+.header {
+    background-color: #243042;
+    display : flex;
+    justify-content: space-between;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 18px;
+    color: #aeb0b4;
+    margin: 16px;
+}
+
+.header-links {
+    padding-top: 39px;
+    padding-right: 32px;;
+}
+
+.header-inner {
+    display:flex;
+    padding-left: 32px;
+}
+
+.title {
+    color: white;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 35px 0px 28px 0px;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+.logo {
+    width: 70px;
+    max-width: 70px;
+    height: 70px;
+    padding: 16px 16px 16px 0px;
+}
