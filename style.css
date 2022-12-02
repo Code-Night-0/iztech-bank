@@ -99,6 +99,13 @@ body {
     font-size: 15px;
 }
 
+.yazilimlogo {
+    max-width: 250px;
+    max-height: 250px;
+    padding: 35px;
+    padding-left: 200px;
+}
+
 /* SECTION TWO */
 
 .section-two {
