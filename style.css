@@ -60,8 +60,8 @@ body {
 
 .photo-holder {
     display: flex;
-    justify-content: flex-start;
-    gap: 182px;
+    justify-content: center;
+    gap: 196px;
     flex-shrink: 0;
 }
 
