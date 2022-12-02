@@ -135,3 +135,31 @@ body {
     font-weight: bold;
     padding-top: 12px;
 }
+
+/* FOOTER */
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 6px;
+}
+
+a.footer-author {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+
+a.logo {
+    transform: scale(0.9);
+    max-width: 32px;
+    max-height: 32px;
+}
+
+a.logo:hover {
+    transform: scale(1);
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
